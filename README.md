@@ -8,7 +8,7 @@
 [BSD 2-CLAUSE]: https://opensource.org/license/bsd-2-clause/
 [Apache License 2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
 
-## Setup Manual
+## Setup History
 
 ```bash
 ## install and init
