@@ -2,4 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: 'src/',
+  build: {
+    transpile: ['primevue'],
+  },
 });

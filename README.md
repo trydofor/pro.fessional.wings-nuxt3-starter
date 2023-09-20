@@ -3,6 +3,7 @@
 * [Nuxt3](https://nuxt.com/docs/getting-started/introduction) - SSR/SSG [MIT]
 * [Volta](https://volta.sh/) Tool Manager [BSD 2-CLAUSE]
 * [Typescript](https://www.typescriptlang.org) Main Language [Apache License 2.0]
+* [PrimeVue](https://primevue.org) UI Framework [MIT]
 
 [MIT]: https://opensource.org/license/mit/
 [BSD 2-CLAUSE]: https://opensource.org/license/bsd-2-clause/
@@ -16,6 +17,10 @@ curl https://get.volta.sh | bash
 volta install node
 npx nuxi@latest init wings-nuxt3-starter
 volta pin node
+
+## 
+npm i -D @nuxt/eslint-config eslint
+npm i primevue
 
 ## npm command
 npm install
