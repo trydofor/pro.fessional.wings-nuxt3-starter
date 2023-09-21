@@ -1,9 +1,10 @@
 # Wings Nuxt3 Starter
 
 * [Nuxt3](https://nuxt.com/docs/getting-started/introduction) - SSR/SSG [MIT]
-* [Volta](https://volta.sh/) Tool Manager [BSD 2-CLAUSE]
-* [Typescript](https://www.typescriptlang.org) Main Language [Apache License 2.0]
-* [PrimeVue](https://primevue.org) UI Framework [MIT]
+* [Volta](https://volta.sh/) - Tool Manager [BSD 2-CLAUSE]
+* [Typescript](https://www.typescriptlang.org) - Main Language [Apache License 2.0]
+* [PrimeVue](https://primevue.org) - UI Framework [MIT]
+* [Tailwind](https://tailwindcss.com) - CSS framework [MIT]
 
 [MIT]: https://opensource.org/license/mit/
 [BSD 2-CLAUSE]: https://opensource.org/license/bsd-2-clause/
@@ -18,9 +19,13 @@ volta install node
 npx nuxi@latest init wings-nuxt3-starter
 volta pin node
 
-## 
+## eslint for nuxt
 npm i -D @nuxt/eslint-config eslint
+## primevue
 npm i primevue
+## tailwindcss
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init
 
 ## npm command
 npm install

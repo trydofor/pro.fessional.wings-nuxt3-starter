@@ -5,4 +5,11 @@ export default defineNuxtConfig({
   build: {
     transpile: ['primevue'],
   },
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 });
